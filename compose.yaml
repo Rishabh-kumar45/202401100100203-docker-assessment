@@ -16,7 +16,7 @@ services:
       retries: 10
 
   backend:
-    build: ./backend
+    image: rishabh0145/fest-backend:1.0.0
     environment:
       REGNO: "202401100100203"
       APP_VERSION: "dev"

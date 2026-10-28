@@ -17,4 +17,7 @@ USER appuser
 
 EXPOSE 5000
 
+ARG APP_VERSION=dev
+ENV APP_VERSION=${APP_VERSION}
+
 CMD ["python", "app.py"]
